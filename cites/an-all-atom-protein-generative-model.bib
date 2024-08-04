@@ -1,12 +1,22 @@
-@article {Chu2023.05.24.542194,
-	author = {Alexander E Chu and Lucy Cheng and Gina El Nesr and Minkai Xu and Po-Ssu Huang},
-	title = {An all-atom protein generative model},
-	elocation-id = {2023.05.24.542194},
-	year = {2023},
-	doi = {10.1101/2023.05.24.542194},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Proteins mediate their functions through chemical interactions; modeling these interactions, which are typically through sidechains, is an important need in protein design. However, constructing an all-atom generative model requires an appropriate scheme for managing the jointly continuous and discrete nature of proteins encoded in the structure and sequence. We describe an all-atom diffusion model of protein structure which instantiates a "superposition" over the possible sidechain states, and collapses it to conduct reverse diffusion for sample generation. When combined with sequence design methods, our model is able to co-design all-atom protein structure and sequence. Generated proteins are of good quality under the typical quality, diversity, and novelty metrics, and sidechains reproduce the chemical features and behavior of natural proteins. Finally, we explore the potential of our model conduct all-atom protein design and scaffold functional motifs in a backbone- and rotamer-free way.Competing Interest StatementThe authors have declared no competing interest.},
-	URL = {https://www.biorxiv.org/content/early/2023/05/25/2023.05.24.542194},
-	eprint = {https://www.biorxiv.org/content/early/2023/05/25/2023.05.24.542194.full.pdf},
-	journal = {bioRxiv}
-}
+
+
+
+
+
+
+
+
+@article{
+doi:10.1073/pnas.2311500121,
+author = {Alexander E. Chu  and Jinho Kim  and Lucy Cheng  and Gina El Nesr  and Minkai Xu  and Richard W. Shuai  and Po-Ssu Huang },
+title = {An all-atom protein generative model},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {121},
+number = {27},
+pages = {e2311500121},
+year = {2024},
+doi = {10.1073/pnas.2311500121},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2311500121},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2311500121},
+abstract = {Proteins drive many biological processes; the ability to design and engineer their structure and function has potential for impact across science, medicine, and engineering. Generative modeling with deep neural networks has emerged as a powerful approach for modeling and controllably sampling from the distribution of protein structures. However, many methods ignore the sidechain atoms, which drive most of protein function, focusing only on the backbone conformation. We describe a structure and sequence codesign algorithm which can generate the full atomic structure of proteins across the diverse folds found in the PDB, offering a way to design proteins conditioned directly on functional elements of interest. Proteins mediate their functions through chemical interactions; modeling these interactions, which are typically through sidechains, is an important need in protein design. However, constructing an all-atom generative model requires an appropriate scheme for managing the jointly continuous and discrete nature of proteins encoded in the structure and sequence. We describe an all-atom diffusion model of protein structure, Protpardelle, which represents all sidechain states at once as a “superposition” state; superpositions defining a protein are collapsed into individual residue types and conformations during sample generation. When combined with sequence design methods, our model is able to codesign all-atom protein structure and sequence. Generated proteins are of good quality under the typical quality, diversity, and novelty metrics, and sidechains reproduce the chemical features and behavior of natural proteins. Finally, we explore the potential of our model to conduct all-atom protein design and scaffold functional motifs in a backbone- and rotamer-free way.}}
+
