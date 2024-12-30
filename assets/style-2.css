@@ -11,7 +11,6 @@ a:hover {
     /* color: #444; */
 }
 
-
 .noter {
     font-size: 9pt;
 }
@@ -42,8 +41,8 @@ a:hover {
 }
 
 .profilepic {
-    width: 190px;
-    border-radius: 50%;
+    width: 250px;
+    border-radius: 30%;
     /* filter: grayscale(100%); */
 }
 
