@@ -1,10 +1,10 @@
 // Initialize font properties
 const fontname = "Ubuntu";
-const fontweights = [300, 400]
+const fontweights = [310, 400]
 
 // Color properties
 const basecolor = "#212121";
-const accentcolor = "#20850c";
+const accentcolor = "#188a15";
 const highlightcolor = "#111";
 
 // const basecolor = "#888";
